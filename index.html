@@ -16,6 +16,13 @@
       rel="stylesheet"
     />
     <style>
+      body {
+        background: radial-gradient(
+          592px at 48.2% 50%,
+          rgba(255, 255, 249, 0.6) 0%,
+          rgb(160, 199, 254) 74.6%
+        );
+      }
       h1 {
         font-family: "Combo", cursive;
         color: purple;
@@ -52,6 +59,7 @@
         border: 2px solid black;
         box-shadow: 10px purple;
         border-radius: 10px;
+        background-color: white;
       }
       .h1_sub {
         margin: 1rem 1rem 0rem 1rem;
@@ -84,7 +92,7 @@
         color: rgb(186, 9, 186);
       }
       .sub-cul {
-        color: ;
+        /* color: ; */
         font-size: 20px;
         padding: 10px;
         margin: 5px;
@@ -108,6 +116,7 @@
       }
       .art-big {
         width: 400px;
+        margin: 10px auto;
       }
       .line {
         color: black;
@@ -123,6 +132,14 @@
         padding: 10px;
         margin: 5px;
         text-align: inherit;
+      }
+      @media (max-width:750px) {
+        .art-big {
+          width: 200px;
+        }
+        .arts {
+          width: 200px;
+        }
       }
     </style>
   </head>
@@ -162,7 +179,9 @@
           <hr class="line" />
           <h3 class="head-cul head">CULTURE</h3>
           <div>
-            <p class="sub-cul">We Are <em>Black</em> <br> We Respect Our <em> Culture</em>
+            <p class="sub-cul">
+              We Are <em>Black</em> <br />
+              We Respect Our <em> Culture</em>
             </p>
           </div>
           <div class="culture">
